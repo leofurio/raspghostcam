@@ -1,5 +1,5 @@
 # Raspberry Ghost :ghost: Camera
-(just for fun with my littel ghostbuster son). <br />
+(just for fun :trollface: with my littel ghostbuster son). <br />
 We try to create a ghost camera that are able to check the humidity and the temperature change inside a room and take a picture when it happen.
 
 **What do you need?**<br />
@@ -13,10 +13,10 @@ Switch button <br />
 >To start the camera
 
 Raspberry infrared camera  <br /> 
->:ghost: are visible only with infrared camera
+>:ghost: are seen only with infrared camera
 
 Ftp account <br /> 
->:ghost: could destroy your camera, but his picture will be safe and stored on the web
+>:ghost: could destroy your camera, but his photo will be store and safe on the web
 
 
 **FTP CONFIG**<br />
