@@ -2,9 +2,9 @@
 Raspberry ghost camera (just fun with my son)
 
 **What you need?**<br />
-DHT11 sensor (Temperature and Humidity)
-Raspberry Pi
-Switch button
+DHT11 sensor (Temperature and Humidity) <br />
+Raspberry Pi <br />
+Switch button <br />
 
 
 
@@ -12,7 +12,7 @@ Switch button
 Add config.txt file with this options
 
 ```
-[FTPDATA] <br />
+[FTPDATA]
 login=**LOGINFTP**
 password=**PASSWORDFTP**
 ftpurl= **URLFTP with format ftp.url.com**
