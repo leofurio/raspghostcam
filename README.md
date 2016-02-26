@@ -9,15 +9,21 @@ DHT11 sensor (Temperature and Humidity) <br />
 Raspberry Pi <br /> 
 >:ghost: love led and light from Raspberry
 
-Switch button <br /> 
->To start the camera
-
 Raspberry infrared camera  <br /> 
->:ghost: are seen only with infrared camera
+>:ghost: are seen only by infrared camera
 
-Ftp account <br /> 
+
+Ftp account <br /> *optional*
 >:ghost: could destroy your camera, but his photo will be store and safe on the web
 
+Switch button <br /> *optional*
+>To start the camera
+
+Battery Pack <br />*optional*
+>and your camera cloud be place everywhere
+
+WIFI dongle<br /> *optional*
+> usb wifi dongle to move your camera without problem
 
 **FTP CONFIG**<br />
 Add config.txt file with this options
