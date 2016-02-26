@@ -1,5 +1,5 @@
 import RPi.GPIO as GPIO
-Import time
+import time
 import subprocess
 
 PIN_BUTTON = 18
