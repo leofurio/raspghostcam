@@ -1,4 +1,4 @@
-# Raspberry Ghost :ghost: Camera
+# Raspberry Ghost :ghost: Camera /play horror
 (just for fun :trollface: with my littel ghostbuster son). <br />
 We try to create a ghost camera that are able to check the humidity and temperature changes inside a room, when it happens the camera take a picture!
 
