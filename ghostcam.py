@@ -4,6 +4,7 @@ import picamera
 import datetime
 import Adafruit_DHT
 import RPi.GPIO as GPIO
+import ConfigParser
 
 
 PIN_DHT = 4
@@ -12,10 +13,14 @@ GPIO.setmode(GPIO.BCM)
 old_hum = 45
 old_temp = 21
 
-login='USER'
-password='PASSWORD'
-ftpurl= 'FTPURL'
-folder='FTPFOLDER'
+config = ConfigParser.ConfigParser()
+config.read('config.txt')
+
+
+login=config.get('FTPDATA','login')
+password=config.get('FTPDATA','password')
+ftpurl= config.get('FTPDATA','ftpurl')
+folder=config.get('FTPDATA','folder')
 
 def capture_frame(txt):
     with picamera.PiCamera() as cam:
@@ -29,8 +34,6 @@ def capture_frame(txt):
 
 def getDht(model,pin):
 	return Adafruit_DHT.read_retry(model,pin)
-
-input_state = GPIO.input(PIN_BUTTON)
 
 while True:
 	start = time.time()
