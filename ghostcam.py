@@ -43,10 +43,13 @@ while True:
 		old_hum = humidity
 		capture_frame('Humidity:'+str(humidity)+'\n Temperature:'+ str(temperature))
 		session = ftplib.FTP(ftpurl,login,password)
-		file = open('/home/pi/Desktop/imageftp.jpg','rb') # file to send
-		today = datetime.datetime.now()
-		strToday = today.strftime('%d-%m-%Y-%H-%M-%S')
-		session.rename(folder+'imageftp.jpg', folder+'imageftp'+strToday+'.jpg')
+		try:
+			file = open('/home/pi/Desktop/imageftp.jpg','rb') # file to send
+		    	today = datetime.datetime.now()
+		    	strToday = today.strftime('%d-%m-%Y-%H-%M-%S')
+		    	session.rename(folder+'imageftp.jpg', folder+'imageftp'+strToday+'.jpg')
+		except:
+			pass	
 		session.storbinary('STOR '+folder+'imageftp.jpg', file)# send the file
 		file.close()# close file and FTP
 		session.quit()
