@@ -14,7 +14,7 @@ Raspberry infrared camera  <br />
 
 
 Ftp account <br /> *optional*
->:ghost: could destroy your camera, but his photo will be stored and safe on the web
+>:ghost: could destroy your camera, but his photo will be stored, safe on the web
 
 Switch button <br /> *optional*
 >To start the camera
